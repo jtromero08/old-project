@@ -1,0 +1,26 @@
+[
+  {
+    "name": "ball",
+    "img": "images/ball.jpg"
+  },
+  {
+    "name": "stark",
+    "img": "images/stark.png"
+  },
+  {
+    "name": "bigRobot",
+    "img": "images/bigRobot.jpg"
+  },
+  {
+    "name": "warrior",
+    "img": "images/warrior.png"
+  },
+  {
+    "name": "x",
+    "img": "images/x.png"
+  },
+  {
+    "front": "images/front.png",
+    "blank": "images/blank.png"
+  }
+]

@@ -1,0 +1,10 @@
+node_modules/
+
+# all bundler files by parceljs
+.cache/
+dist/*.map
+dist/*.css
+dist/*.js
+dist/*.html
+
+package-lock.json

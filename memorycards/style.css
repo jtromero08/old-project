@@ -1,0 +1,31 @@
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  height: auto;
+  width: auto;
+}
+
+.card {
+  height: 100%;
+  position: relative;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+}
+
+.card__face {
+  backface-visibility: hidden;
+}
+
+.card__face--back {
+  transform: rotateY(180deg);
+}
+
+.card.is-flipped {
+  transform: rotateY(180deg);
+}
+
+.footer {
+  font-family: Arial;
+  font-weight: 600;
+  font-size: large;
+}
